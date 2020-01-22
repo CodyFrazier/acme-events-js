@@ -1,0 +1,47 @@
+body{
+	background-color: #222;
+	color: #ea7200;
+}
+input:focus{
+	outline: none;
+}
+textarea:focus{
+	outline: none;
+}
+ul{
+	list-style-type: none;
+}
+.container{
+	display: flex;
+	flex-flow: nowrap column;
+	align-items: center;
+	justify-content: center;
+}
+.App{
+	display: flex;
+	flex-flow: nowrap column;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.box{
+	width: 300px;
+	background-color: #ddd;
+	display: flex;
+	flex-flow: nowrap column;
+	margin: 1rem;
+	padding: 1rem;
+	border: 1px solid;
+	border-radius: 5px;
+}
+.input{
+	margin: .5rem;
+}
+
+
+@media screen and (min-width: 700px){
+	.App{
+		flex-flow: nowrap row;
+	}
+}
